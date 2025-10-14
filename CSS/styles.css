@@ -1,0 +1,102 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+#splashScreen {
+    background-image: url("../images/Bricks_bg.jpg");
+    display: block;
+}
+
+#splash01 {
+    background-image: url("../images/splashscreen_1100_720.png");
+    opacity: 0;
+    animation-duration: 1500;
+    animation-timing-function: ease-in 1.5s;
+}
+
+#startButton {
+    width: 300px;
+    height: 75px;
+    border-radius: 20px;
+    font-size: 50px;
+    font-family: fantasy;
+    color: black;
+    background-color: transparent;
+    opacity: 0;
+}
+
+#loading {
+    width: 310px;
+    display: none;
+    opacity: 0;
+}
+
+#loadingBar {
+    border: 5px solid black;
+    width: 300px;
+    height: 35px;
+}
+
+#loadingLabel {
+    font-family: fantasy;
+    font-size: 36px;
+    color: black;
+    margin: 0px;
+}
+
+.segment {
+    width: 0px;
+    height: 35px;
+    background-color: black;
+    float: left;
+}
+
+#gameAccessories {
+    opacity: 0;
+    display: none;
+    float: right;
+    width: 345px;
+    height: 720px;
+}
+
+#gameAccessories p {
+    color: white;
+    font-family: fantasy;
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+
+#livesImage {
+    width: 300px;
+    height: 152px;
+    opacity: 1;
+}
+
+#scoreLabel {
+    color: green;
+    font-size: 64px;
+    font-family: fantasy;
+    text-shadow: white 0px 0px 30px;
+}
+
+#gameCanvas {
+    display: none;
+}
+
+#texts {
+    opacity: 0;
+    display: none;
+    width: 500px;
+}
+
+#gameText1 {
+    margin: 0;
+    width: 500px;
+    font-size: 82px;
+    font-family: fantasy;
+    color: white;
+    text-align: center;
+    -webkit-text-stroke: 2px black;
+}

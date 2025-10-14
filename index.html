@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AWB Project</title>
+    <link rel="stylesheet" href="CSS/styles.css"/>
+    <script src="lib/anime.min.js"></script>
+</head>
+<body>
+    <div id="splashScreen">
+        <div id="splash01">
+            <div id="loading">
+                <div id="loadingBar">
+                    <div class="segment"></div>
+                    <div class="segment"></div>
+                    <div class="segment"></div>
+                    <div class="segment"></div>
+                    <div class="segment"></div>
+                    <div class="segment"></div>
+                    <div class="segment"></div>
+                    <div class="segment"></div>
+                </div>
+                <p id="loadingLabel">LOADING</p>
+            </div>
+                <canvas id="gameCanvas"></canvas>
+                <div id="texts">
+                    <p id="gameText1"></p>
+                </div>
+                <input type="submit" id="startButton" value="Start Game" onclick="startGame()"/>
+        </div>
+        <div id="gameAccessories">
+            <div id="lives">
+                <p id="livesLabel">Lives:</p>
+                <canvas id="livesImage"></canvas>
+            </div>
+            <div id="score">
+                <p id="scoreTitle">Score:</p>
+                <div id="scoreLabel"></div>
+            </div>
+        </div>
+    </div>
+<script src="JS/script.js"></script>
+</body>
+</html>
